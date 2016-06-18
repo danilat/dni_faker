@@ -8,7 +8,6 @@ describe('DNI Faker') do
 
   it('generates a NIE') do
     nie = Faker::DNI.nie()
-    puts nie
     expect(nie.size).to eq 9
   end
 end

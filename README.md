@@ -1,6 +1,6 @@
 # DNI Faker
 
-This is a simple gem to generate fake spanish DNI random numbers with a valid letter. It's based in the well-known gem [Faker](https://github.com/stympy/faker).
+This is a simple gem to generate fake spanish DNI or NIE random numbers with valid letters. It's based in the well-known gem [Faker](https://github.com/stympy/faker).
 
 ### Faker::DNI
 -----------------
@@ -9,4 +9,7 @@ This is a simple gem to generate fake spanish DNI random numbers with a valid le
 
 Faker::DNI.dni #=> "11966530K"
 
+Faker::DNI.nie #=> "X7055652B"
+
 ```
+
