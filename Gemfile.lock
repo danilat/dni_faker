@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    dni_faker (0.1)
+    dni_faker (0.2)
       faker
 
 GEM
